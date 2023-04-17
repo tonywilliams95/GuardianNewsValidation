@@ -1,11 +1,11 @@
 ## Features
  framework supports Behavior Driven Development (BDD) with tests written in plain English using Gherkin syntax. It comes with built-in libraries for UI, API (SOAP & REST), and DB (MSSQL, DB2 & Oracle) testing.
 
-With our framework, you can execute tests in different browsers and run scenarios in parallel mode with 2 scenarios running simultaneously by default. For flaky scenarios, you can set up retries until either the test passes or reaches the maximum number of attempts. Reruns of failed scenarios are also supported.
+With this framework, you can execute tests in different browsers and run scenarios in parallel mode with 2 scenarios running simultaneously by default. For flaky scenarios, you can set up retries until either the test passes or reaches the maximum number of attempts. Reruns of failed scenarios are also supported.
 
 If you need to skip certain scenarios, simply add the @ignore tag. We also provide a dry run option to identify undefined and ambiguous steps.
 
-Our framework includes utility for file download and reading PDF files. It generates Cucumber HTML Report and HTML Report with snapshots and videos in case of failed scenarios. All test execution logs are captured in the log file.
+This framework includes utility for file download and reading PDF files. It generates Cucumber HTML Report and HTML Report with snapshots and videos in case of failed scenarios. All test execution logs are captured in the log file.
 
 The framework configuration is controlled by the .env file, and environment variables can be modified at runtime. Integration with CI/CD tools like Jenkins is easy and simple.
 

@@ -22,8 +22,8 @@ Feature: Validate News Article
   @wip
   Scenario Outline: Validating a news article with partially similar articles
     Given a news article from Guardian with partially similar articles on multiple resources
-    When I search for similar information on Google or other resources
-    Then the news article is considered valid
+    When I search for similar information on "<Source>" with "<ArticleToCheck>"
+    Then the news article is considered valid with "<MatchScore>"
 
   Example: 
   |Source|MatchScore|ArticleToCheck|
