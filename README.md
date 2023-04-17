@@ -1,0 +1,2 @@
+# GuardianNewsValidation
+GuardianNewsValidation
